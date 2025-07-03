@@ -41,5 +41,3 @@ Output Files:
      certain atom type conventions in the input trajectory.
    - Both orthorhombic and non-orthorhombic periodic boundary conditions are handled.
    - Output files are overwritten at each run.
-
-!------------------------------------------------------------------------------
