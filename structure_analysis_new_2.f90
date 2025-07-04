@@ -34,12 +34,12 @@ program structure_analysis
     backbone_atm=[16,13,10,9,6,3,2,4,20,21,24,27,28,31,34,35,38,41,42,45,48,49,52,55,56,59,62,63,66,69,70,73]
     max_sep=28
     n_bonds=31
-    filename="/home/vishnu/Documents/Vishnu/New_Build/New_Sim/LAGP_PEO/prod/wrap_mod.lammpstrj"
+    filename="~/wrap_mod.lammpstrj"
     open(unit=10, file=filename, status='old')
-    open(unit=11, file="/home/vishnu/Documents/Vishnu/New_Build/New_Sim/LAGP_PEO/prod/rg.dat")
-    open(unit=12, file="/home/vishnu/Documents/Vishnu/New_Build/New_Sim/LAGP_PEO/prod/endtoend_4b_4.dat")
-    open(unit=13, file="/home/vishnu/Documents/Vishnu/New_Build/New_Sim/LAGP_PEO/prod/totrdf.dat")
-    open(unit=14,file="/home/vishnu/Documents/Vishnu/New_Build/New_Sim/LAGP_PEO/prod/persistence.dat")
+    open(unit=11, file="~/rg.dat")
+    open(unit=12, file="~/endtoend_4b_4.dat")
+    open(unit=13, file="~/totrdf.dat")
+    open(unit=14,file="~/persistence.dat")
     step = 0 
 
     pol_firstatm_found= .false. 
